@@ -10,7 +10,7 @@ namespace AppDivisas
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new Views.ConversorView();
         }
 
         protected override void OnStart()
